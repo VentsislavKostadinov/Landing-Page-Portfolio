@@ -1,0 +1,129 @@
+
+
+body {
+
+    background-image: url("../images/background-image.jpg");
+    background-repeat: no-repeat;
+}
+
+/* Glyphicons */
+@font-face {
+    font-family: "Glyphicons Halflings";
+
+    src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot');
+    src: url('../bootstrap/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    url('../bootstrap/fonts/glyphicons-halflings-regular.woff') format('woff'), url('../bootstrap/fonts/glyphicons-halflings-regular.ttf') format('truetype'),
+    url('../bootstrap/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+/* Nav bar header */
+
+.navbar-inverse {
+
+
+    background: transparent;
+    border-bottom-color: transparent;
+}
+
+.navbar-inverse .navbar-brand {
+
+    font-size: 24px;
+    color: #EEF3FF;
+}
+
+.navbar-inverse .navbar-brand:hover {
+
+    color: red;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+
+    float: right;
+    font-size: 20px;
+    color: #EEF3FF;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+
+    color: red;
+}
+
+.content-heading {
+
+    text-transform: uppercase;
+    color: #EEF3FF;
+    margin-top: 100px;
+}
+
+.content-heading:hover {
+
+    color:red
+}
+
+#indexHr {
+    border-color: #F05F40;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+.text-center {
+
+    font-size: 18px;
+}
+
+/* About section */
+
+.about-section {
+
+    background-color: #32174E;
+    color: white;
+    height: 408px;
+    bottom: -408px;
+    position: absolute;
+
+}
+
+#aboutHr {
+    border-color: white;
+    border-width: 3px;
+    max-width: 50px;
+}
+
+/* Portfolio Section */
+
+.portfolio-section {
+
+    background-color: #F05F40;
+    color: white;
+    height: 688px;
+    position: absolute;
+    bottom: -1096px;
+    width: 100%;
+}
+
+.education {
+    font-size: 16px;
+}
+
+.education > ul > li {
+    list-style-type: none;
+}
+
+/* Contact Section */
+
+.contacts-section {
+
+    background-color: #EEF3FF;
+    color: black;
+    width: 100%;
+    height: 475px;
+    bottom: -1545px;
+    position: absolute;
+}
+
+#contactsHr {
+
+    border-color: black;
+    border-width: 3px;
+    max-width: 50px;
+}
+
